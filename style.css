@@ -1,0 +1,108 @@
+.productCard {
+    height: 300px;
+    border-radius: 15px;
+    background-image: url('https://zerolifestyle.co/cdn/shop/files/Caliberpro-black-smart-watch-01.webp?v=1701764035&width=416');
+    background-size: cover;
+    background-position: center;
+}
+
+.trns {
+    display: none;
+}
+
+.productCard:hover .trns {
+    display: block;
+    border-radius: 15px;
+    transition: .5s;
+    background-color: rgba(0, 0, 0, .5);
+    height: 100%;
+    color: white;
+}
+
+.img1{
+    background-image: url('https://www.pngfind.com/pngs/b/9-99801_apple-watch-series-1-img-4-png-watch.png');
+}
+
+.img2{
+    background-image: url('https://e7.pngegg.com/pngimages/486/490/png-clipart-apple-watch-series-3-smartwatch-apple-watch-accessory-apple-watch.png');
+}
+
+.img3{
+    background-image: url('https://w7.pngwing.com/pngs/154/241/png-transparent-iphone-7-apple-watch-series-2-smartwatch-10-watches-electronics-watch-accessory-hand.png');
+}
+
+.img4{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDSWncqS6uRZu-LkiUT_Yf-AmPhQjtQrbUdw&usqp=CAU');
+}
+
+.watch-container {
+    height: 150px;
+    border-radius: 20px;
+    background-color: rgba(185, 205, 225, 0.256);
+}
+
+.watch1 {
+    background-image: url('https://purepng.com/public/uploads/large/apple-watch-pcq.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.watch2 {
+    background-image: url('https://w7.pngwing.com/pngs/842/836/png-transparent-apple-watch-series-3-apple-watch-series-2-mockup-s-watch-strap-electronics-gadget-apple-watch.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.watch3 {
+    background-image: url('https://www.nicepng.com/png/detail/376-3764117_unboxing-the-apple-watch-edition-version-of-series.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card1 {
+    height: 210px;
+    width: 180px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.card2 {
+    height: 150px;
+    width: 180px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.card3 {
+    height: 360px;
+    width: 180px;
+    background-color: black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.card3:hover {
+    transition-duration: 5s;
+    background-image: url('https://media.istockphoto.com/id/1372077120/photo/over-the-shoulder-view-of-young-asian-sports-woman-checks-her-fitness-statistics-on.jpg?s=612x612&w=0&k=20&c=BFek-9Ag5mPF2KU4_BAQV0iPDUetTaDrE4j3E5JaUcE=');
+    background-size: cover;
+}
+
+.contentCard {
+    height: 400px;
+    background-color: white;
+    border-radius: 22px;
+}
+
+.contentCard:hover .blackTransparent {
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    border-radius: 22px;
+}
+
+.contentCard:hover {
+    background-image: url('https://media.istockphoto.com/id/1372077120/photo/over-the-shoulder-view-of-young-asian-sports-woman-checks-her-fitness-statistics-on.jpg?s=612x612&w=0&k=20&c=BFek-9Ag5mPF2KU4_BAQV0iPDUetTaDrE4j3E5JaUcE=');
+    background-size: cover;
+}
