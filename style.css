@@ -106,3 +106,33 @@
     background-image: url('https://media.istockphoto.com/id/1372077120/photo/over-the-shoulder-view-of-young-asian-sports-woman-checks-her-fitness-statistics-on.jpg?s=612x612&w=0&k=20&c=BFek-9Ag5mPF2KU4_BAQV0iPDUetTaDrE4j3E5JaUcE=');
     background-size: cover;
 }
+
+.section5 {
+    padding: 85px 0;
+}
+
+.section5 img{
+    border-radius: 17px;
+}
+
+.section5 p {
+    display: flex;   
+}
+
+.emailStyle>input[type="email"]{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    width: 200px;
+}
+
+.emailStyle {
+    margin-top: 110px;
+    margin-left: 40px;
+}
+
+footer ul li {
+    list-style: none;
+}
